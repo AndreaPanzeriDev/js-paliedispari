@@ -15,6 +15,12 @@ choise = choise.toLowerCase();
 //recall the function in order to check if the user type something
 Check(choise);
 
+//check if the user type a siutable option
+if(choise != 'pari' || choise != 'dispari'){
+    alert("scegli pari o dispari");
+    location.reload();
+}
+
 
 //let the user put is number
 let number = prompt("Inserisci un numero");
